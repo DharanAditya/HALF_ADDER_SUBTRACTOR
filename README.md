@@ -51,8 +51,8 @@ Figure -02 HALF Subtractor
 **Program:**
 
 /*
-Developed by:MOENISH BAALAN G
-RegisterNumber: 212223220057*/
+Developed by: DHARAN ADITYA S
+RegisterNumber: 212223040035*/
 ```
 module HalfAddSub(a,b,sum,carry,D,Bo);
 input a,b;
