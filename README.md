@@ -54,6 +54,16 @@ Figure -02 HALF Subtractor
 
 Developed by: DHARAN ADITYA RegisterNumber: 212223040035*/
 
+module HalfAddSub(a,b,sum,carry,D,Bo);
+input a,b;
+output sum,carry,D,Bo;
+wire abar;
+xor G1(sum,a,b);
+and G2(carry,a,b);
+not (abar,a);
+xor G3(D,a,b);
+and G4(Bo,abar,b);
+endmodule
 **RTL Schematic**
 
 ![316397501-98ea0644-d39c-4475-a684-368ed4dabeb1](https://github.com/DharanAditya/HALF_ADDER_SUBTRACTOR/assets/147473834/973d7392-db50-4d35-8fe7-34c8e2edc507)
